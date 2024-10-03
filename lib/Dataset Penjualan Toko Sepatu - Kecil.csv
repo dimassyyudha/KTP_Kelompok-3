@@ -1,0 +1,9 @@
+Timestamp,ID Transaksi,Merk Sepatu,Ukuran,Warna,Harga,Jumlah,Kasir,Metode Pembayaran
+2024-10-01 10:41:02,TS001,Puma,36,Putih,469000,1,Ani,E-Wallet
+2024-10-01 10:41:02,TS001,Adidas,40,Hitam,679000,2,Budi,Tunai
+2024-10-02 13:30:33,TS002,New Balance,41,Merah,949000,2,Ani,E-Wallet
+2024-10-02 14:16:41,TS003,Nike,42,Hitam,849000,1,Ahmad,Tunai
+2024-10-02 14:16:41,TS003,Puma,42,Hitam,469000,1,Ani,Kartu Debit
+2024-10-03 10:23:03,TS004,Reebok,40,Hijau,669000,1,Budi,Tunai
+2024-10-03 10:23:03,TS004,Under Armour,39,Cokelat,299000,1,Budi,Kartu Kredit
+2024-10-04 12:55:19,TS005,Reebok,38,Hijau,669000,1,Siti,Tunai
