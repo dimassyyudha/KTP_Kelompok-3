@@ -24,9 +24,17 @@ def frekuensiUkuran(arr, n):
         print("Sepatu ukuran", elem, "muncul", f, "kali") 
 
 #Main 
-file_path = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Sedang.csv' #dataset-1
-#file_path = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Kecil.csv'  #dataset-2
-data = pd.read_csv(file_path)
-arr = data[['Ukuran', 'Jumlah']].values
-n = len(arr)
-frekuensiUkuran(arr, n)
+print("========== Solusi Serial dengan Dataset Kecil ==========") 
+file_path1 = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Sedang.csv' #dataset-1
+data = pd.read_csv(file_path1)
+arr1 = data[['Ukuran', 'Jumlah']].values
+n = len(arr1)
+frekuensiUkuran(arr1, n)
+
+print("\n================================================\n")
+print("========== Solusi Serial dengan Dataset Sedang ==========") 
+file_path2 = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Kecil.csv'  #dataset-2
+data = pd.read_csv(file_path2)
+arr2 = data[['Ukuran', 'Jumlah']].values
+n = len(arr2)
+frekuensiUkuran(arr2, n)

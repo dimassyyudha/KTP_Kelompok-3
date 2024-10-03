@@ -107,9 +107,17 @@ def outputFrekAtributSepatu(arr):
     print("\nBulan:")
     for bulan, f in bulan_freq.items():
         print(f"Bulan {bulan} muncul {f} kali")
-        
-file_path = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Kecil.csv'  #dataset-1
-#file_path = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Sedang.csv'  #dataset-2
-arr = baca_dari_csv(file_path)
-frekUkuran(arr)
-outputFrekAtributSepatu(arr)
+
+#Main
+print("========== Solusi Parallel dengan Dataset Kecil ==========")     
+file_path1 = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Kecil.csv'  #dataset-1
+arr1 = baca_dari_csv(file_path1)
+frekUkuran(arr1)
+outputFrekAtributSepatu(arr1)
+
+print("\n================================================\n")
+print("========== Solusi Parallel dengan Dataset Sedang ==========") 
+file_path2 = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Sedang.csv'  #dataset-2
+arr2 = baca_dari_csv(file_path2)
+frekUkuran(arr2)
+outputFrekAtributSepatu(arr2)
