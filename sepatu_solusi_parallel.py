@@ -110,8 +110,10 @@ def outputFrekAtributSepatu(arr):
     print("\nBulan:")
     for bulan, f in bulan_freq.items():
         print(f"Bulan {bulan} muncul {f} kali")
-        
-file_path = 'Dataset Penjualan Toko Sepatu - Sedang.csv'  # ganti dengan path ke file yang benar
+
+#Main    
+file_path = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Sedang.csv' #dataset-1
+#file_path = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Kecil.csv'  #dataset-2
 arr = baca_dari_csv(file_path)
 frekUkuran(arr)
 outputFrekAtributSepatu(arr)

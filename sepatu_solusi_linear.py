@@ -24,8 +24,8 @@ def frekuensiUkuran(arr, n):
         print("Sepatu ukuran", elem, "muncul", f, "kali") 
 
 #Main 
-file_path = '../tubes/dataset/Dataset Penjualan Toko Sepatu - Sedang.csv' #dataset-1
-#file_path = '../tubes/dataset/Dataset Penjualan Toko Sepatu - Kecil.csv'  #dataset-2
+file_path = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Sedang.csv' #dataset-1
+#file_path = '../KTP_Kelompok-6/dataset/Dataset Penjualan Toko Sepatu - Kecil.csv'  #dataset-2
 data = pd.read_csv(file_path)
 arr = data[['Ukuran', 'Jumlah']].values
 n = len(arr)
